@@ -1,6 +1,6 @@
 #!/usr/local/bin groovy
 package com.matthias
 
-def call testFunction() {
+def call() {
   echo "Jenkins Test Function Call Works! :D"
 }
