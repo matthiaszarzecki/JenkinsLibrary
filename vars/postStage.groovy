@@ -1,6 +1,6 @@
 #!/usr/local/bin groovy
 package com.matthiaszarzecki.jenkinsLibrary
 
-def postStage(stageName) {
+def call(stageName) {
   echo "###################### Stage: " + stageName
 }
