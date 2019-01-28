@@ -1,10 +1,10 @@
 #!/usr/local/bin groovy
 package com.matthiaszarzecki.jenkinsLibrary
 
-def call(resultPath) {
+def call(tablePath) {
   checkstyle canComputeNew:   false,
              defaultEncoding: '',
              healthy:         '',
-             pattern:         resultPath,
+             pattern:         tablePath,
              unHealthy:       ''
 }
