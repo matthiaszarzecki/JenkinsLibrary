@@ -7,6 +7,6 @@ def call(directory, filename) {
                keepAll:               false,
                reportDir:             directory,
                reportFiles:           filename,
-               reportName:            'Unit Test Report',
+               reportName:            'Linting Report',
                reportTitles:          ''])
 }
