@@ -2,5 +2,5 @@
 package com.matthiaszarzecki.jenkinsLibrary
 
 def call(directory, filename) {
-  publishHTML('Documentation', directory, filename)
+  postHTML('Documentation', directory, filename)
 }
